@@ -5,6 +5,6 @@
   </head>
   <body>
     <!-- Add your PHP code in the tag below -->
-    <h1></h1>
+    <h1><?php echo "My Stuff"?></h1>
   </body>
 </html>

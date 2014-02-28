@@ -5,6 +5,12 @@
   </head>
   <body>
     <!-- Add your PHP code in the tag below -->
-    <p></p>
+    <p>
+    	<?php 
+	 		$myString ="Some text";
+	 		$myString .= " followed by more text.";
+	 		echo $myString;
+     	?>
+ 	</p>
   </body>
 </html>

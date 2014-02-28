@@ -5,6 +5,12 @@
   </head>
   <body>
     <!-- Add your PHP code in the tag below -->
-    <p></p>
+    <p>
+    	<?php
+    		$myPracticeVariable = "My text info I've entered into this string";
+    		echo $myPracticeVariable;
+    	?>
+
+    </p>
   </body>
 </html>
