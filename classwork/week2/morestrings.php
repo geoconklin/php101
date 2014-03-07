@@ -16,6 +16,20 @@
       // check to see if "?" exists
       // with the position of "?" return a substring of the query arguments
       // print out each query string as a formatted string
+
+      foreach ($urls as $url) {
+  
+        $ifParameterString = strpos($url, "?");
+        
+        if ($ifParameterString != false) {
+          $lengthOf = strlen($url);
+          $theParamString = substr($url, $ifParameterString + 1, $lengthOf+1);
+          echo $theParamString . "<br>";
+        }
+
+      }
+
+
     ?>
   </body>
 </html>
